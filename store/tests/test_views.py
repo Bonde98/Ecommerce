@@ -77,3 +77,5 @@ class TestViewResponses(TestCase):
         self.assertIn('<title>BookStore</title>', html)
         self.assertTrue(html.startswith('\n<!DOCTYPE html>\n'))
         self.assertEqual(response.status_code, 200)
+        
+# bonjour
